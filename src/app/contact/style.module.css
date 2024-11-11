@@ -1,0 +1,56 @@
+.contactpagecon{
+    height: 90vh;
+    width: 100%;
+    /* margin-left: 190px; */
+    padding-left: 190px;
+    display: flex;
+    /* gap: 20px; */
+}
+
+.contactpageconpart1{
+    height: 510px;
+    width: 35%;
+    /* background-color:aliceblue; */
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+#contactpageconpart1text1 h1{
+    font-size: 64px;
+    font-weight: 100;
+    color: gray;
+    
+}
+#contactpageconpart1text1 span{
+    position: relative;
+    bottom: 30px;
+    font-weight: 500;
+    color: black;
+}
+#contactpageconpart1text3 p{
+    font-weight: 500;
+}
+
+#contactpageconpart1button button{
+    height: 71px;
+    width: 221px;
+    color: white;
+    background-color: rgb(31, 30, 30);
+}
+.contactpageconpart2{
+    height: 510px;
+    width: 65%;
+    /* background-color: aqua;    */
+    background-image: url(../../../galleryphoto//contactpageimage.png);
+    background-size: cover;
+}
+#contactpageconpart2image{
+    height: 510px;
+    width: 100%;
+}
+#contactpageconpart2logo{
+    position: relative;
+    left: 540px;
+    top: 225px;
+   box-shadow: 6px white;
+}

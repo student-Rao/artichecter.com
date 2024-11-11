@@ -2,26 +2,381 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+header{
+  height:102px ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: black
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+#logopic{
+  height:50px;
+  width: 80px;
+ 
+  color: #333333;
+}
+.logo{
+  margin-top: 10px;
+  padding-left: 130px;
+  width: 30%;
+  /* margin-left: 100px; */
+}
+.logo p{
+  font-size: 10px;
+  padding-top: 2px;
+}
+.headerbutt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 60%;
+  
+}
+#firstlink{
+  /* width: 68px;
+  height: 42px; */
+  border-bottom: 1px solid grey;
+  border-top: 1px solid green;
+}
+.headerbutt li{
+  list-style-type: none;
+  color: #333333;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Header css completet */
+/* main section start */
+
+main{
+  height: fit-content;
+  width: 100%;
+  padding: 20px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.mainpart1{
+  display: flex;
+  justify-content: center;
+  height: 540px;
+  width: 100%;
+
 }
+.mainpart1div1{
+  height: 829px;
+  width: 50%;
+  text-align: center;
+  line-height: 35px;
+   padding-top: 70px;
+  /* padding-left: 80px;  */
+}
+.mainpart1div1{
+  height: 535px;
+  width: 50%;
+}
+.mainpart1div1 p{
+  font-size: 64px;
+  font-weight: 300;
+  margin-top: 90px;
+  color: gray;
+  /* color: ; */
+
+}
+.mainpart1 span{
+  font-size: 64px;
+  font-weight: 500;
+}
+#part1button{
+  height: 53px;
+  width: 53px;
+  background-color: #F9F9F9;
+
+  /* border: 1px solid black; */
+}
+#part1button button{
+  height: 53px;
+  width: 53px;
+  /* background-color: #FFFFFF; */
+  border: 1px solid black;
+}
+.mainpart1div2{
+  height: 535px;
+  width: 770px;
+}
+#homeimage{
+  height: 535px;
+  padding-right: 80px;
+  /* padding: 20px; */
+}
+.buttonspart1{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: gray;
+  /* border: 1px solid white; */
+}
+.mainpart1div2 button{
+  /* padding: 0px; */
+  position: relative;
+ 
+  bottom: 70px;
+  width: 222px;
+  height: 70px;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+  /* color: gray; */
+  border: 2px solid #FFFFFF;
+
+
+}
+.mainpart1div2 button i{
+  height: 24px;
+  width: 24px;
+  padding-left: 20px;
+}
+.something{
+  margin-top: 60px;
+  color: gray;
+}
+
+/* mainpart2div1 start */
+
+.mainpart2div1{
+  height: 450px;
+  width: 80%;
+  margin: 50px 50px 50px 180px;
+  background-color:#F9F9F9 ;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 30px;
+}
+
+.mainpart2sec{
+  /* height: 100%; */
+  width: 270px;
+  margin-top: 40px;
+  /* padding-bottom: 20px; */
+}
+#mainpagepart2pic2{
+  margin-top: 40px;
+}
+#mainpaggepart2pic3{
+  margin-top: 40px;
+}
+#mainpart2textsec{
+  margin: 0px;
+  padding: 0px;
+}
+#mainpart2textsec h1{
+  
+  font-size: 64px;
+  font-weight: 400;
+  color: #a7a2a2;
+}
+#mainpart2textsec p{
+  font-size: 16px;
+  font-family: roboto;
+}
+
+#mainpart2textsec button{
+  height:71px;
+  padding-right: 10px;
+  width: 222px;
+  background-color: white;
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+
+align-items: center;
+  font-size: 12px;
+
+}
+
+.mainpart3div1{
+  height: 300px;
+  width: 80%;
+  margin: 50px 50px 50px 180px;
+  /* background-color:#F9F9F9 ; */
+  position: relative;
+  bottom: 90px; 
+  right:  90px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+  gap: 30px;  
+  /* background-color: aqua; */
+}
+
+main h2{
+  font-size: 64px;
+  font-weight: 350;
+  margin: 0px;
+  /* margin-top: 90px; */
+  padding-left: 170px;
+  /* padding-bottom:0px; */
+    color: rgb(153, 149, 149);
+} 
+
+ #mainpart3div1part1{
+  height: 200px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+
+  gap: 10px;
+
+  /* background-color: black; */
+}
+#mainpart3div1part2{
+  height: 200px;
+  width: 40%;
+  display: flex;
+ justify-content: center;
+  align-items: center; 
+  /* flex-wrap: wrap; */
+
+  gap: 10px; 
+  /* display: inline-block; */
+/* background-color: yellow; */
+} 
+#mainpart3div1part1 p{
+ 
+  margin-top: 0px;
+  /* padding: 0px; */
+  padding-left: 10px;
+  font-size: 150px;
+  font-weight: 500;
+  color: gray;
+}
+#mainpart3div1para{
+  font-size: 20px;
+}
+#mainpart3div1part2 p{
+  margin-top: 0px;
+  /* padding: 0px; */
+  padding-left: 10px;
+  font-size: 150px;
+  font-weight: 500;
+  color: gray;
+}
+
+/* MAIN PART 4 DIV 1 CSS START */
+
+.mainpart4div1{
+  height: 600px;
+  width: 80%;
+  margin-left: 150px;
+  
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* background-color: #F9F9F9; */
+}
+.mainpart4div1 h2{
+  font-size: 64px;
+  margin: 0px;
+  padding: 0px;
+}
+.mainpart4div1imagepart1{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.mainpart4div1imagepart2{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.mainpart4div1 button {
+  width: 221px;
+  height: 71px;
+  background-color: rgb(41, 39, 39);
+  
+}
+.mainpart4div1button{
+  display: flex;
+  margin-top: 30px;
+  color: white;
+  flex-direction: row-reverse;
+}
+
+/* mainpart5div css start */
+
+.mainpart5div1{
+  height: 603px;
+  width: 80%;
+  margin-left: 150px;
+}
+
+.mainpart5div1 h2{
+  font-size: 64px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainpart5formsec{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* gap:px; */
+  /* background-color: yellow; */
+}
+#formsection{
+  height: 369px;
+  width:40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color:aqua; */
+}
+
+#formsectionimage{
+  height: 369px;
+  width: 60%; 
+  /* background-color: blue; */
+}
+.contactformpart{
+  height:46px ;
+  width: 319px;
+  padding-left: 10px;
+  
+  background-color: #e0dede;
+
+}
+
+#message{
+  width: 319px;
+  height: 147px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 16px;
+  background-color:#e0dede;
+
+}
+
+.mainpart5div1 button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 71px;
+  width: 221px;
+  background-color: rgb(73, 71, 71);
+  color: white;
+  font-size: 12px;
+}
+
+/* mounting */
+/* updating */
+/* unmounting */
+/* DOM */

@@ -1,0 +1,18 @@
+
+
+.certificationcon{
+    height: 80vh;
+    width: 100%;
+}
+.certificationcon h2{
+    margin-left: 190px;
+    font-size: 64px;
+    font-size: 100;
+    color: gray;
+}
+
+.certificationcon span{
+    color: black;
+    position: relative;
+    bottom: 30px;
+}

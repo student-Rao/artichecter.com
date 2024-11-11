@@ -1,0 +1,40 @@
+.project1con{
+    height: auto;
+    width: 100%;
+}
+.project1con h2{
+   font-size: 64px;
+   color: gray;
+   font-weight: 200;
+    margin-left: 190px;
+
+}
+.project1con span{
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+    color: black;
+}
+.projectmaincon{
+    margin-left: 190px;
+}
+#projectmaincon2{
+    height: 435px;
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    /* background-color: yellow; */
+}
+
+#projectmaincon2image{
+    height: 430px;
+    width: 35%;
+}
+#projectmaincon2text{
+   height: 430px;
+   width: 60%;
+}
+#projectmaincon2image2{
+    margin-bottom: 50px;
+}

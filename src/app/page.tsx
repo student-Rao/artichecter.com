@@ -1,101 +1,113 @@
 import Image from "next/image";
-
+import homepic1 from "../../images/homepic1.png"
+import mainpaggepart2pic1 from "../../images/mainpaggepart2pic1.png"
+import mainpagepart2pic2 from "../../images/mainpagepart2pic2.png"
+import mainpaggepart2pic3 from "../../images/mainpagepart2pic3.png"
+import Reactangle from "../../images/Rectangle .png"
+import image15 from "../../images/image15.png"
+import image16 from "../../images/image16.png"
+import image17 from "../../images/image17.png"
+import image18 from "../../images/image18.png"
+import image12 from "../../images/image12.png"
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  <main>
+   <div className="mainpart1">
+   <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <div className="mainpart1div1">
+      <p>PROJECT</p> <br /><span>LORUM</span>
+      <div className="buttonspart1">
+        <button id="part1button"><i className="ri-arrow-left-line"></i></button>
+        <button id="part1button"><i className="ri-arrow-right-line"></i></button>
+      </div>
+      <div className="something">
+    <pre>0 <br /> 1  /  02</pre>
+      </div>
     </div>
+  
+  
+    <div className="mainpart1div2">  <Image src={homepic1} alt="" id="homeimage"/><button>VIEW PROJECT <i className="ri-arrow-right-line"></i></button>
+        
+    </div>
+   </div>
+   <div className="mainpart2div1">
+    <div className="mainpart2sec" id="mainpart2pic1sec" >
+      <Image src={mainpaggepart2pic1} alt="" height={265} width={270} />
+      <Image src={mainpagepart2pic2} alt=""  height={144} width={265} id="mainpagepart2pic2" />
+    </div>
+    <div className="mainpart2sec" id="mainpart2pic2sec">
+      <Image src={mainpaggepart2pic3} alt="" height={345} width={270} id="mainpaggepart2pic3" />
+    </div>
+    <div className="mainpart2sec" id="mainpart2textsec">
+      <h1>ABOUT</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      <button>READ MORE   <i className="ri-arrow-right-line"></i></button>
+    </div>
+   </div>
+  
+
+   <h2>Main Focus/Mission Statement</h2>
+   < div className="mainpart3div1">
+   
+   
+    <div id="mainpart3div1part1">
+      <p>1</p>
+      <div id="mainpart3div1para">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</div>
+      
+    </div>
+    <div id="mainpart3div1part2">
+    <p>2</p>
+      <div id="mainpart3div1para">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</div>
+    </div>
+    
+   </div>
+   <h2>OUR PROJECT</h2>
+   <div className="mainpart4div1">
+    <div className="mainpart4div1imagepart1">
+    <div>
+    <Image src={Reactangle} alt="" width={570} height={255} />
+    </div>
+    <div>
+    <Image src={image15} alt="" width={570} height={255} />
+    </div>
+    </div>
+    <div className="mainpart4div1imagepart2">
+      <div><Image src={image16} alt="" width={270} height={255} /></div>
+      <div><Image src={image17} alt="" width={470} height={255} /></div>
+      <div><Image src={image18} alt="" width={370} height={255} /></div>
+    </div>
+    <div className="mainpart4div1button">
+    <button>ALL PROJECTS <i className="ri-arrow-right-line"></i> </button>
+    </div>
+    
+   </div>
+   <div className="mainpart5div1">
+    <h2>Contact Us</h2>
+    <div className="mainpart5formsec">
+      <div className="formsectionpart" id="formsection">
+        <input type="text" name="" className="contactformpart" placeholder="Name" />
+        <input type="tel" name="" className="contactformpart" placeholder="Phone Number" required />
+        <input type="email" name="" className="contactformpart" placeholder="Email" required/>
+        <input type="text" name="" className="contactformpart" placeholder="Interested in" required />
+        <textarea name="" id="message" placeholder="Message"></textarea>
+      </div>
+      <div className="formsectionpart" id="formsectionimage">
+        <Image src={image12} height={400} width={749} alt=" " />
+      </div>
+    </div>
+    <button>SEND EMAIL <i className="ri-arrow-right-line"></i></button>
+   </div>
+
+  </main>
   );
 }
+
+
+
+
+{/* <button>VIEW PROJECT<i className="ri-arrow-right-line"></i></button>  */}

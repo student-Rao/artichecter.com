@@ -1,0 +1,97 @@
+.Projection{
+    height: fit-content;
+    width: 100%;
+    /* margin-left: 190px; */
+
+}
+.Projection h2{
+    margin-left: 190px;
+    font-size: 64px;
+    font-weight: 100;
+    color: #808080;
+}
+
+.Projection span{
+    color:black;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+}
+
+.projectcon{
+    height: fit-content;
+    width: 100%;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+    /* margin-left: 190px; */
+
+    padding-bottom: 20px;
+}
+
+.projectsconsection{
+    height: 435px;
+    width: 1000px;
+    margin-left: 190px;
+    /* border: 1px solid black; */
+
+}
+
+#projectsec1{
+    display: flex;
+    
+}
+#projectsec1image{
+    height: 430px;
+    width:50%;
+   
+}
+#projectsec1text{
+    height: px;
+    width:50%;
+    background-color: rgb(221, 218, 218);
+}
+#img{
+    height: 434px;
+}
+
+#projectsec1text h2{
+    padding-left: 20px;
+    margin: 0%;
+   font-size: 40px; 
+}
+#projectsec1text  p{
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-size: 16px;
+}
+#projectsec1text button{
+    height: 71px;
+    width: 221px;
+    margin-left: 30px;
+    margin-top: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.lastpartproject{
+
+    display: flex;
+    gap: 30px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+.lastpartprojectbutt button{
+    height: 53px;
+    width: 53px;
+    margin-left: 20px;
+    color: gray;
+    /* background-color: gray; */
+}
