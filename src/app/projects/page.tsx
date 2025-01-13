@@ -15,7 +15,7 @@ export default function Projects(){
             <div className={style.projectcon}>
             <div id={style.projectsec1} className={style.projectsconsection}>
              <div id={style.projectsec1image}>
-                <Image src={projectsecimage1} alt='' height={435} width={670} id={style.img}/>
+                <Image src={projectsecimage1} alt='pic' height={435} width={670} id={style.img}/>
              </div>
              <div id={style.projectsec1text}>
                 <h2>Sample Project</h2>
@@ -27,7 +27,7 @@ export default function Projects(){
             </div>
             <div id={style.projectsec1} className={style.projectsconsection}>
             <div id={style.projectsec1image}>
-            <Image src={projectsecimage2} alt='' height={435} width={670} id={style.img}/>
+            <Image src={projectsecimage2} alt='pic' height={435} width={670} id={style.img}/>
                 </div>
                 <div id={style.projectsec1text}>
                 <h2>Sample Project</h2>
@@ -37,7 +37,7 @@ export default function Projects(){
             </div>
             <div id={style.projectsec1} className={style.projectsconsection}>
             <div id={style.projectsec1image}>
-            <Image src={projectsecimage3} alt='' height={435} width={670} id={style.img}/>
+            <Image src={projectsecimage3} alt='pic' height={435} width={670} id={style.img}/>
                 </div>
                 <div id={style.projectsec1text}>
                 <h2>Sample Project</h2>

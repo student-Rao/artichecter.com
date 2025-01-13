@@ -1,6 +1,6 @@
 import style from './style.module.css'
 import Image from 'next/image'
-import contactpageimage from '../../../galleryphoto/contactpageimage.png'
+// import contactpageimage from '../../../galleryphoto/contactpageimage.png'
 import Ellipse1 from '../../../galleryphoto/Ellipse1.png'
 
 export default function Contact(){

@@ -24,22 +24,22 @@ export default function Home() {
         <button id="part1button"><i className="ri-arrow-right-line"></i></button>
       </div>
       <div className="something">
-    <pre>0 <br /> 1  /  02</pre>
+    <pre>0 <br /> 1 / 02</pre>
       </div>
     </div>
   
   
-    <div className="mainpart1div2">  <Image src={homepic1} alt="" id="homeimage"/><button>VIEW PROJECT <i className="ri-arrow-right-line"></i></button>
+    <div className="mainpart1div2">  <Image src={homepic1} alt="pic" id="homeimage"/><button>VIEW PROJECT <i className="ri-arrow-right-line"></i></button>
         
     </div>
    </div>
    <div className="mainpart2div1">
     <div className="mainpart2sec" id="mainpart2pic1sec" >
-      <Image src={mainpaggepart2pic1} alt="" height={265} width={270} />
-      <Image src={mainpagepart2pic2} alt=""  height={144} width={265} id="mainpagepart2pic2" />
+      <Image src={mainpaggepart2pic1} alt="pic" height={265} width={270} />
+      <Image src={mainpagepart2pic2} alt="pic"  height={144} width={265} id="mainpagepart2pic2" />
     </div>
     <div className="mainpart2sec" id="mainpart2pic2sec">
-      <Image src={mainpaggepart2pic3} alt="" height={345} width={270} id="mainpaggepart2pic3" />
+      <Image src={mainpaggepart2pic3} alt="pic" height={345} width={270} id="mainpaggepart2pic3" />
     </div>
     <div className="mainpart2sec" id="mainpart2textsec">
       <h1>ABOUT</h1>
@@ -70,16 +70,16 @@ export default function Home() {
    <div className="mainpart4div1">
     <div className="mainpart4div1imagepart1">
     <div>
-    <Image src={Reactangle} alt="" width={570} height={255} />
+    <Image src={Reactangle} alt="pic" width={570} height={255} />
     </div>
     <div>
-    <Image src={image15} alt="" width={570} height={255} />
+    <Image src={image15} alt="pic" width={570} height={255} />
     </div>
     </div>
     <div className="mainpart4div1imagepart2">
-      <div><Image src={image16} alt="" width={270} height={255} /></div>
-      <div><Image src={image17} alt="" width={470} height={255} /></div>
-      <div><Image src={image18} alt="" width={370} height={255} /></div>
+      <div><Image src={image16} alt="pic" width={270} height={255} /></div>
+      <div><Image src={image17} alt="pic" width={470} height={255} /></div>
+      <div><Image src={image18} alt="pic" width={370} height={255} /></div>
     </div>
     <div className="mainpart4div1button">
     <button>ALL PROJECTS <i className="ri-arrow-right-line"></i> </button>
@@ -97,7 +97,7 @@ export default function Home() {
         <textarea name="" id="message" placeholder="Message"></textarea>
       </div>
       <div className="formsectionpart" id="formsectionimage">
-        <Image src={image12} height={400} width={749} alt=" " />
+        <Image src={image12} height={400} width={749} alt="pic " />
       </div>
     </div>
     <button>SEND EMAIL <i className="ri-arrow-right-line"></i></button>
