@@ -1,8 +1,8 @@
-import  mainlogo from '../../first/images/mainlogo.png'
+import  mainlogo from '../images/mainlogo.png'
 import Image from 'next/image'
 import style from "./style.module.css"
-import fourthlink from '../../first/images/fourthlink.png'
-import mobilelogo from '../../first/images/mobilelogo.png'
+import fourthlink from '../images/fourthlink.png'
+import mobilelogo from '../images/mobilelogo.png'
 
 
 export default function Footer(){
